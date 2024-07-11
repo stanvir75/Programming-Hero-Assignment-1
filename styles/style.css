@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
   margin: 0;
   padding: 0;
 }
 .body{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Azeret Mono", monospace;
 }
 .banner{
   background-image: url('../assets/Hero-bg.png');
@@ -37,7 +36,7 @@
 .hero-heading{
   justify-content: center;
   align-items: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Azeret Mono", monospace;
   text-align: center;
   margin-bottom: 20px;
 
@@ -96,7 +95,7 @@
 }
 
 .margin{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   
 }
 .web-development img{
@@ -109,6 +108,7 @@
   color: black;
   padding: 10px 10px;
   cursor: pointer;
+
 }
 
 .first-part-content{
@@ -126,28 +126,29 @@
   gap: 20px;
   box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
-  justify-content: center;
-  align-items: center;
+
+
 }
 .skills{
-  height: 500pxpx;
+  height: 500px;
   width: 760px;
-  
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin: auto;
+  gap:100px;
 
   
 }
 
 .skill{
-  padding: 30px;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.06);
+  padding: 15px;
   border-radius: 5px;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.06);
-  border-radius: 5px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  width: 500px;
 
+
+
+
+}
+
+.learn-more-link{
+  font-weight: 600;
+  color: black;
 }
