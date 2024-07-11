@@ -118,4 +118,36 @@
 .my-inspiration{
   /* max-width: 765px;
   max-height: 550px; */
+  height: 600px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 20px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.skills{
+  height: 500pxpx;
+  width: 760px;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+.skill{
+  padding: 30px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
 }
