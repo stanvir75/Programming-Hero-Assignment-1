@@ -9,7 +9,7 @@
 }
 .banner{
   background-image: url('../assets/Hero-bg.png');
-  height: 435px;
+  height: 400px;
   
   display: flex;
 
@@ -113,4 +113,9 @@
 
 .first-part-content{
   width: 320px
+}
+
+.my-inspiration{
+  /* max-width: 765px;
+  max-height: 550px; */
 }
