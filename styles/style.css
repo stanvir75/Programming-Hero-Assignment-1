@@ -135,7 +135,7 @@
   color: black;
 }
 
-footer {
+#footer {
   border-radius: 16px;
 
   background-image: linear-gradient(
@@ -233,4 +233,18 @@ footer {
   border-radius: 8px;
 
   background: rgb(255, 255, 255);
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 200px ;
+
+}
+
+.footer-link a{
+
+   margin-right: 24px;
 }
